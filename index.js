@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 
 var server = app.listen(8080, function () {
 
-  var host = 'http://localhost'
+  var host = 'localhost'
   var port = server.address().port
 
   console.log('Example app listening at http://%s:%s', host, port)
